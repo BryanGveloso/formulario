@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+    <!--PARTICIPANTES DO GRUPO:
+        GUILHERME HENRIQUE(ADS)
+        ANTONY lEVI(ADS)
+        CRISTOPHER DANTAS(ADS)
+        BRYAN GOMES(CD)
+        DAVID SANTOS(CD)-->
+</head>
+<body>
+    <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="datan">Data de nascimento:</label>
+        <input type="date" id="datan" name="data"><br>
+
+        <label for="sexo">Sexo:
+            <input type="radio" id="masc" name="sexo" value="masc">
+            <label for="masc">Masc</label>
+            <input type="radio" id="fem" name="sexo" value="fem">
+            <label for="fem">Fem</label>
+            <input type="radio" id="nao" name="sexo" value="nao">
+            <label for="nao">Prefiro não informar</label><br>
+        </label>
+        <label for="endereco">Endereço:<br>
+            <fieldset>
+                <label for="logradouro">Logradouro:</label>
+                <input type="text" id="logradouro" name="logradouro"><br>
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" name="bairro"><br>
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade"><br>
+
+                <label for="uf">UF:</label>
+                <select name="UF">
+                    <option>DF</option>
+                    <option>SP</option>
+                    <option>RJ</option>
+                  </select>
+              </fieldset>
+        </label>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email"><br>
+        <button type="button">Limpar</button>
+        <button type="button">Enviar</button>
+
+    </form>
+</body>
+</html>
